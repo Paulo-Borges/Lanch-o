@@ -1,0 +1,304 @@
+.bebidas-header {
+    background: var(--bg-footer);
+    width: 1440px;
+    height: 70px;
+    margin: 0 auto;
+    border: 1px solid var(--back-bebidas);
+}
+
+#sacola .bebidas-header ul li .btn-ligado {
+    padding: 10px 20px 0px 0px; 
+    border-radius: 8px;
+}
+.promo-final {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.promo-text {
+    color: var(--btn-base);
+    font-family: 'Roboto';
+    width: 578px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 64px;
+    margin-left: 150px;
+
+}
+
+.promo-bg {
+    width: 1169px;
+    height: 225px;
+    border: 2px solid var(--back-bebidas);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 35px;
+    margin-left: 150px;
+
+}
+.promo-foto img {
+    width: 302px;
+    height: 225px;
+}
+.promo-bebidas {
+    
+    font-family: 'Roboto';
+    width: 295px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.neg {
+    font-weight: 900;
+    font-family: 'Roboto';
+    /* width: 140px; */
+    height: 28px;
+    font-size: 24px;
+    margin-top: 20px;
+
+}
+.verm {
+    color: var(--btn-base);
+    font-family: 'Roboto';
+    height: 28px;
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 20px;
+
+}
+.promo-valor ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.promo-valor ul li {
+    border: 2px solid var(--back-bebidas);
+    margin-top: 200px;
+}
+
+.verm1 {
+    color: var(--btn-base);
+    font-weight: 700;
+    font-size: 18px;
+}
+.promo-table {
+    display: grid;
+    justify-items: center;
+    justify-content: end;
+    margin-top: 135px;
+}
+.table-item {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+}
+.table-item1 {
+    color: var(--btn-base);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    display: block;
+    text-align: end;
+}
+.table-item2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+    font-size: 36px;
+}
+.table-item3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+   
+}
+
+.table-fim {
+    color: var(--titulo-banner);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    padding: 20px 60px;
+    background: var(--btn-base);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* home-footer */
+#sacola .footer {
+    width: 1440px;
+    height: 351px;
+    background: var(--bg-footer);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#sacola .home-rede h1 {
+    display: block;
+    width: 296px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56.25px;
+    margin-top: 117px;
+    margin-left: 105px;
+    color: var(--titulo-banner);
+}
+
+#sacola .home-rede img {
+    padding: 20px 0 0 95px;
+    margin-top: 0px;
+    gap: 20px;
+
+}
+
+#sacola .home-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#sacola .home-news label{
+    grid-column: 1/-1;
+    margin-top: 90px;
+    width: 245px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56.25px;
+    color: var(--titulo-banner);
+   
+}
+
+#sacola .home-news input {
+    font-size: 36px;
+    margin-bottom: 80px;
+}
+#sacola .home-news a {
+    width: 105px;
+    height: 28px;
+    margin-left: 10px;
+    color: var(--titulo-banner);
+    padding: 10px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+    background: var(--btn-base);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28.13px;
+    margin-bottom: 80px;
+
+
+}
+
+@media (max-width: 450px) {
+    .promo-final {
+        width: 100%;
+    }
+
+    .promo-bg {
+        width: 100%;
+    }
+    .promo-text {
+        font-size: 32px;
+        margin-left: 20px;
+    }
+    
+    .promo-bg {
+        width: 100%;
+        margin-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    
+    }
+
+    .promo-table {
+        margin-bottom: 35px;
+        margin-right: 30px;
+        margin-top: 335px;
+    }
+
+    #sacola .footer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    #sacola .home-rede h1 {
+        display: none;
+    }
+    #sacola .home-news {
+        display: none;
+    }
+    #sacola .home-news label{
+        display: none;
+    }
+    
+    #sacola .home-news input {
+        display: none;
+    }
+    #sacola .home-news a {
+        display: none;
+    }
+    #sacola .home-rede img {
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 45px;
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
